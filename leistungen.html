@@ -41,29 +41,40 @@
         li {
             margin-bottom: 8px;
         }
+
+        /* ✅ Logo links oben */
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 80px;
+            width: 150px;
+        }
+
+        /* ✅ Zurück-Button */
+        .back-button {
+            display: inline-block;
+            padding: 8px 12px;
+            background-color: #ddd;
+            border-radius: 5px;
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .back-button:hover {
+            background-color: #bbb;
+        }
     </style>
 </head>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    background: white;
-    margin: 0;
-    padding: 20px;
-}
-
-.logo {
-    position: absolute;
-    top: 20px;
-    left: 80px;
-    width: 150px;
-}
-</style>
 
 <body>
 
+<!-- ✅ Logo -->
+<img src="https://raw.githubusercontent.com/bahramian/AliWebSeite/main/KI-Bild02.jpg" class="logo">
+
 <div class="container">
 
-    
+    <h1>Leistungen</h1>
 
     <!-- ✅ Bild -->
     <img src="Ali-Aks-Web02.jpg" alt="Leistungen Bild">
@@ -91,20 +102,9 @@ body {
     </ul>
 
 </div>
+
+<br>
 <a href="javascript:history.back()" class="back-button">⟵ Zurück</a>
 
-<style>
-.back-button {
-    display: inline-block;
-    padding: 8px 12px;
-    background-color: #ddd;
-    border-radius: 5px;
-    color: black;
-    font-weight: bold;
-}
-.back-button:hover {
-    background-color: #bbb;
-}
-</style>
 </body>
 </html>
